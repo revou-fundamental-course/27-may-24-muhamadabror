@@ -1,1 +1,1 @@
-// Ini Javacript
+// Ini javascriptt
