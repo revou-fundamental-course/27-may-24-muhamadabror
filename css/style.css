@@ -1,20 +1,29 @@
 
+body{
+    background-color: rgb(226, 215, 116);
+    margin: 0;
+}
 .logo{
     width: 50px;
     height: 50px;
     border: 1px solid black;
     border-radius: 50%;
+    background-image: url(/image/logo.jpeg);
+    background-size: cover;
+    margin-left: 1%;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(253, 241, 132);
+    box-shadow: 10px;
 }
 
 .nav-list{
     display: flex;
     align-items: center;
-    background-color: aqua;
+    margin-right: 1%;
 }
  .nav-item{
     padding: 8px;
@@ -22,5 +31,26 @@ nav{
 
  .banner{
     height: 300px;
-    border: 1px solid black;
+    background-image: url(/image/bg1.jpg);
+    background-position: bottom;
+    background-size: cover;
  }
+
+ .banner>h1{
+    color: floralwhite;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+
+ .judul{
+    align-items: center;
+    text-align: center;  
+ }
+
+ .ctl-product{
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: inset;
+ }
+
