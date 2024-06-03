@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protofolio - Abror</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>RNJ Florist</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <nav>
@@ -13,15 +13,16 @@
             <a class="nav-item" href="#home">Home</a>
             <a class="nav-item" href="#services">Services</a>
             <a class="nav-item" href="#message">Message</a>
+            <a class="nav-item" href="#about">About</a>
         </section>
     </nav>
     <!-- Banner -->
-    <section>
+    <section id="hero">
         <div class="banner">
-            <h3>Halo, Abror <span>Selamat Datang</span></h3>
+            <h3>Halo, <span>Abror</span> Selamat Datang</h3>
             <header class="tag-judul">        
                 <h1>RNJ FLORIST</h1>
-                <h4>Flower Specialist</h4>
+                <h6>Flower Specialist</h6>
                 <button class="ctl-product">Catalog Product</button>
             </header>
         </div>
@@ -35,8 +36,8 @@
     </section>
     <!-- Services -->
     <section id="services">
-        <header>Services</header>
-        <main class="services">
+        <header>Our Services</header>
+        <div class="services-list">
             <article class="menu-srv">
                 <div class="img-srv"><img src="/css/image/produk1.png" alt="Bunga Papan" width="100%"></div>
                 <h4>Bunga Papan</h4>
@@ -52,6 +53,54 @@
                 <h4>Bucket Bunga</h4>
                 <p>Rangkaian bunga yang disusun diatas papa dengan rapih dan indah. Pembuatan dilakukan dengan teliti dan hati hati agar mendapatkan hasil terbaik. bisa request sesuai selera</p>
             </article>
-        </main>
+        </div>
+    </section>
+        <!-- Message -->
+        <section id="message">
+            <header>Message Us</header>
+            <div class="colom-form">
+                <form action="#">
+                    <table>
+                        <tr>
+                            <td><label for="name">Nama</label></td>
+                            <td>:</td>
+                            <td>
+                                <input type="text" id="name" placeholder="Nama">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td>:</td>
+                            <td><input type="text" id="email" placeholder="Email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="date-born">Tanggal Lahir</label></td>
+                            <td>:</td>
+                            <td><input type="date" id="date-born"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="jenis-kelamin">Jenis Kelamin</label></td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" id="pria" name="gender"><label for="pria">Pria</label>
+                                <input type="radio" id="wanita" name="gender"><label for="wanita">Wanita</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="pesan">Pesan</label></td>
+                            <td>:</td>
+                            <td><textarea name="pesan" id="pesan" placeholder="Pesan"></textarea></td>
+                        </tr>
+                    </table>
+                    <button id="submit">Kirim</button>
+                </form>
+                <!-- Result Form -->
+                <textarea name="result" id="result-form"></textarea>
+            </div>
+        </section>
+        <footer>&copy; 2024 RNJ Florist <br>All Right Reserved </footer>
+    
+    <script src="JS/script.js"></script>
 </body>
 </html>
