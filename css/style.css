@@ -106,6 +106,10 @@ header{
    width: 200px;
    height: 200px;
 }
+.menu-srv h4,
+p{
+   padding-top: 10px;
+}
 .img-srv img{
    background-size: cover;
    border-radius: 10px;
