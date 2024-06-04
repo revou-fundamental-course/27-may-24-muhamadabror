@@ -7,8 +7,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url(/css/image/logo.jpeg);
-    background-image: url(/image/logo.jpeg);
+    background-image: url(/css/image/logo.jpeg);  
     background-size: cover;
     margin-left: 1%;
 }
@@ -130,21 +129,26 @@ p{
 #email,
 #date-born{
    width: 300px;
+   opacity: 0.5;
+   
    
 }
 #pesan{
    resize: none;
    width: 300px;
    height: 150px;
+   opacity: 0.5;
 }
 #result-form{
    resize: none;
    width: 460px;
    height: 250px;
+   opacity: 0.5;
 }
 
 #submit{
    width: 100%;
+   
 }
 
 footer{
