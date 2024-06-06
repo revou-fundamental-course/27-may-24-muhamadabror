@@ -7,7 +7,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url(/assets/logo.jpeg);  
+    background-image: url(assets/logo.jpeg);  
     background-size: cover;
     margin-left: 1%;
 }
@@ -38,7 +38,7 @@ nav{
  #hero{
    height: 450px;
    width: 100%;
-    background-image: url(/assets/begron1.jpg);
+    background-image: url(assets/begron1.jpg);
     background-position: center;
     background-size: 1380px;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ nav{
  .prolog{
    height: 450px;
    display: flex;
-   background-image: url(/assets/bg3.jpg);
+   background-image: url(assets/bg3.jpg);
    background-position: top;
    align-items: center;
    justify-content: space-around;
@@ -76,7 +76,7 @@ nav{
    width: 300px;
    height: 300px;
    border-radius: 10px;
-   background-image: url(/assets/bunga1.jpg);
+   background-image: url(assets/bunga1.jpg);
    background-size: cover;
  }
  .tag-prolog{
@@ -117,7 +117,7 @@ p{
  /* Message */
  #message{
    height: 450px;
-   background-image: url(/assets/bg3.jpg);
+   background-image: url(assets/bg3.jpg);
    background-position: left;
  }
  .colom-form{

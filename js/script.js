@@ -19,26 +19,5 @@ document.getElementById('form').addEventListener('submit', function(e){
 
     document.getElementById('result-form') = hasil;
     
-         
+   return false      
 });
-
-
-// melakukan validasi form
-
-
-
-    // form.addEventListener('submit', (e)=>{
-    //     if (nama == null && email == null && dateBorn == null && jenisKelamin == null && message == null ){
-            
-    //         e.preventDefault();
-    //     }
-        
-    // })
-      
-
-
-
-// hasil dari pengisian form
-// function setSender(nama, email, dateBorn, jenisKelamin, message ){
-
-// };
