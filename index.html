@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RNJ Florist</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
@@ -39,17 +39,17 @@
         <header>Our Services</header>
         <div class="services-list">
             <article class="menu-srv">
-                <div class="img-srv"><img src="/css/image/produk1.png" alt="Bunga Papan" width="100%"></div>
+                <div class="img-srv"><img src="assets/produk1.png" alt="Bunga Papan" width="100%"></div>
                 <h4>Bunga Papan</h4>
                 <p>Rangkaian bunga yang disusun diatas papa dengan rapih dan indah. Pembuatan dilakukan dengan teliti dan hati hati agar mendapatkan hasil terbaik. bisa request sesuai selera</p>
             </article>
             <article class="menu-srv">
-                <div class="img-srv"><img src="/css/image/produk2.jpeg" alt="Standing Bunga" width="100%"></div>
+                <div class="img-srv"><img src="assets/produk2.jpeg" alt="Standing Bunga" width="100%"></div>
                 <h4>Standing Bunga</h4>
                 <p>Rangkaian bunga yang disusun diatas papa dengan rapih dan indah. Pembuatan dilakukan dengan teliti dan hati hati agar mendapatkan hasil terbaik. bisa request sesuai selera</p>
             </article>
             <article class="menu-srv">
-                <div class="img-srv"><img src="/css/image/produk3.jpeg" alt="Bucket Bunga" width="100%"></div>
+                <div class="img-srv"><img src="assets/produk3.jpeg" alt="Bucket Bunga" width="100%"></div>
                 <h4>Bucket Bunga</h4>
                 <p>Rangkaian bunga yang disusun diatas papa dengan rapih dan indah. Pembuatan dilakukan dengan teliti dan hati hati agar mendapatkan hasil terbaik. bisa request sesuai selera</p>
             </article>
@@ -59,37 +59,38 @@
         <section id="message">
             <header>Message Us</header>
             <div class="colom-form">
-                <form action="" id="form-group">
+                <form id="form">
                     <table>
                         <tr>
-                            <td><label for="name">Nama</label></td>
+                            <td>Nama</td>
                             <td>:</td>
                             <td>
-                                <input type="text" id="name" placeholder="Nama">
+                                <input type="text" id="name" placeholder="Nama" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><input type="text" id="email" placeholder="Email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Lahir</td>
+                            <td>:</td>
+                            <td><input type="date" id="date-born" required></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" id="pria" name="gender" required><label for="pria">Pria</label>
+                                <input type="radio" id="wanita" name="gender" required><label for="wanita">Wanita</label>
                             </td>
                         </tr>
                         <tr>
-                            <td><label for="email">Email</label></td>
+                            <td>Pesan</td>
                             <td>:</td>
-                            <td><input type="text" id="email" placeholder="Email"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="date-born">Tanggal Lahir</label></td>
-                            <td>:</td>
-                            <td><input type="date" id="date-born"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="jenis-kelamin">Jenis Kelamin</label></td>
-                            <td>:</td>
-                            <td>
-                                <input type="radio" id="pria" name="gender"><label for="pria">Pria</label>
-                                <input type="radio" id="wanita" name="gender"><label for="wanita">Wanita</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="pesan">Pesan</label></td>
-                            <td>:</td>
-                            <td><textarea name="pesan" id="pesan" placeholder="Pesan"></textarea></td>
+                            <td><textarea name="pesan" id="pesan" placeholder="Pesan" required></textarea></td>
                         </tr>
                     </table>
                     <button id="submit">Kirim</button>
@@ -102,6 +103,6 @@
     </section>
     
     
-    <script src="JS/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
